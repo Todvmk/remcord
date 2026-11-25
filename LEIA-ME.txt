@@ -1,0 +1,28 @@
+MINICORD DESKTOP v2 - GUIA COMPLETO
+===================================
+
+Este pacote contem duas pastas:
+1) Servidor   -> Fica rodando no SEU computador (Host).
+2) Aplicativo -> Programa instalavel (MiniCord.exe) igual ao Discord, com
+                 seletor nativo de janelas e telas com miniaturas!
+
+PASSO 1 - LIGAR O SERVIDOR (NO SEU PC)
+- Instale o Node.js LTS em https://nodejs.org
+- Entre na pasta "Servidor"
+- Execute "1_INSTALAR_SERVIDOR.bat" (apenas 1 vez)
+- Execute "2_LIGAR_SERVIDOR.bat" (deixe aberto)
+- Instale o Cloudflare Tunnel no CMD: winget install --id Cloudflare.cloudflared
+- Execute "3_GERAR_LINK_AMIGOS.bat" e copie o link https://xxxx.trycloudflare.com
+
+PASSO 2 - GERAR O MINICORD.EXE PARA MANDAR AOS SEUS AMIGOS
+- Entre na pasta "Aplicativo"
+- Execute "1_INSTALAR_APP.bat" (apenas 1 vez)
+- Execute "3_GERAR_EXE_PARA_AMIGOS.bat"
+- Aguarde terminar e pegue o arquivo: Aplicativo\dist\MiniCord.exe
+- Mande esse unico arquivo MiniCord.exe para seus amigos!
+
+PASSO 3 - USAR (VOCE E SEUS AMIGOS)
+- Abram o MiniCord.exe
+- Colem o link https://xxxx.trycloudflare.com no campo "Endereco do Servidor"
+  (No seu proprio PC voce pode usar http://localhost:3000)
+- Digitem o apelido e cliquem em Conectar!
